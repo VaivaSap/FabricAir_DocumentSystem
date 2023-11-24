@@ -27,17 +27,7 @@ namespace FabricAir_DocumentSystem
         public DbSet<UserRoles> UserRoles { get; set; }
         public DbSet<AccessScope> AcessScope { get; set; }
 
-        //protected override void OnModelCreating(ModelBuilder builder)
-        //{
-        //    base.OnModelCreating(builder);
-        //    builder.Entity<Files>();
-        //    builder.Entity<FileTypes>();
-        //    builder.Entity<Users>();
-        //    builder.Entity<UserRoles>();  
-        //    builder.Entity<AccessScope>();
-
-
-
+       
         }
 
     }
